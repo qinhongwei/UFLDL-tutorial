@@ -16,7 +16,7 @@
 %  Here we define and initialise some constants which allow your code
 %  to be used more generally on any arbitrary input. 
 %  We also initialise some parameters used for tuning the model.
-
+addpath('../common/');
 inputSize = 28 * 28; % Size of input vector (MNIST images are 28x28)
 numClasses = 10;     % Number of classes (MNIST images fall into 10 classes)
 
